@@ -5,9 +5,9 @@ Is a descktop application developed in Elipse RCP
 
 the goal of this project is to apply a transformation to a long structured text where a manual processing would take alot of time and thus save time.
 
-the application must display the text in a table then allow us to apply the / the same transformations on all the elements of a column
+the application must display the text in a table then allow us to apply the same transformations on all the elements of a column
 
-but abors to display text in a table must define how (colones separators or length of colones)
+but before to display text in a table we must define how (columns separators or length of columns)
 
 ### Exemple
 
