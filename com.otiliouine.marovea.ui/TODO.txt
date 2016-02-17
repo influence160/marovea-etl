@@ -1,0 +1,4 @@
+//TODO reRead input text 
+//TODO externalyze Commands IDs and other IDs
+//TODO all Constants
+//TODO parts for show input text, output text and diff

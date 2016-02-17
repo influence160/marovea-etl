@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.otiliouine.marovea.ui">
+   <service >
+      <provide interface="com.otiliouine.marovea.ui.service.IMaroveaCommandService"/>
+   </service>
+   <implementation class="com.otiliouine.marovea.ui.service.MaroveaCommandService"/>
+</scr:component>

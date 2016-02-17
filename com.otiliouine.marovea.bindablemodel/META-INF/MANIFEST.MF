@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bindablemodel
+Bundle-SymbolicName: com.otiliouine.marovea.bindablemodel
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.otiliouine.marovea.bindablemodel.Activator
+Bundle-Vendor: OTILIOUINE
+Require-Bundle: org.eclipse.core.runtime,
+ com.otiliouine.marovea.core;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.otiliouine.marovea.bindablemodel,
+ com.otiliouine.marovea.bindablemodel.event

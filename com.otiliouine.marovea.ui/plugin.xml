@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.otiliouine.marovea.ui"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="com.otiliouine.marovea.ui">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.otiliouine.marovea.ui/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.otiliouine.marovea.ui/css/default.css">
+         </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.LifecycleManager">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

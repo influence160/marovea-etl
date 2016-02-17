@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Marovea Core
+Bundle-SymbolicName: com.otiliouine.marovea.core
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Othmen Tiliouine
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.otiliouine.marovea.core.extract,
+ com.otiliouine.marovea.core.model,
+ com.otiliouine.marovea.core.io

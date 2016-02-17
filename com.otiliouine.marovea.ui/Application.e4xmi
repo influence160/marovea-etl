@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_PL9UUJAOEeKbrsO3xkY1rA" elementId="org.eclipse.e4.ide.application" bindingContexts="_PL9UUZAOEeKbrsO3xkY1rA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_PL9UZ5AOEeKbrsO3xkY1rA" label="com.otiliouine.marovea.ui" x="10" y="10" width="900" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_PL9Ub5AOEeKbrsO3xkY1rA">
+      <children xsi:type="advanced:Perspective" xmi:id="_PL9UcJAOEeKbrsO3xkY1rA">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_PL9UcZAOEeKbrsO3xkY1rA" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_PL9UcpAOEeKbrsO3xkY1rA" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_TcaCgJDiEeKQJ_LaVW2X4w" elementId="com.otiliouine.marovea.ui.part.projects" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.parts.ProjectsPart2" label="Projects"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_p-gy8JDhEeKQJ_LaVW2X4w" elementId="" containerData="80">
+            <children xsi:type="basic:PartStack" xmi:id="_tnH4YJDhEeKQJ_LaVW2X4w" elementId="com.otiliouine.marovea.ui.partstack.1" containerData="80"/>
+            <children xsi:type="basic:PartStack" xmi:id="_VUGHcJDjEeKQJ_LaVW2X4w" elementId="" containerData="20">
+              <children xsi:type="basic:Part" xmi:id="_Vqvs4JDjEeKQJ_LaVW2X4w" elementId="com.otiliouine.marovea.ui.part.playground" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.parts.PlaygroundPart" label="Playground"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_PL9UaJAOEeKbrsO3xkY1rA" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_PL9UaZAOEeKbrsO3xkY1rA" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_WfSikJAPEeKbrsO3xkY1rA" elementId="com.otiliouine.marovea.ui.handledmenuitem.newproject" label="New Project" command="_dCAosJAPEeKbrsO3xkY1rA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_PL9UapAOEeKbrsO3xkY1rA" label="Open" iconURI="platform:/plugin/com.otiliouine.marovea.ui/icons/sample.gif" command="_PL9UXpAOEeKbrsO3xkY1rA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_PL9Ua5AOEeKbrsO3xkY1rA" label="Save" iconURI="platform:/plugin/com.otiliouine.marovea.ui/icons/save_edit.gif" command="_PL9UYZAOEeKbrsO3xkY1rA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_PL9UbJAOEeKbrsO3xkY1rA" label="%Quit" command="_PL9UWpAOEeKbrsO3xkY1rA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_PL9UbZAOEeKbrsO3xkY1rA" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_PL9UbpAOEeKbrsO3xkY1rA" label="About" command="_PL9UZJAOEeKbrsO3xkY1rA"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_PL9Uc5AOEeKbrsO3xkY1rA">
+      <children xsi:type="menu:ToolBar" xmi:id="_PL9UdJAOEeKbrsO3xkY1rA" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_PL9UdZAOEeKbrsO3xkY1rA" iconURI="platform:/plugin/com.otiliouine.marovea.ui/icons/sample.gif" command="_PL9UXpAOEeKbrsO3xkY1rA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_PL9UdpAOEeKbrsO3xkY1rA" iconURI="platform:/plugin/com.otiliouine.marovea.ui/icons/save_edit.gif" command="_PL9UYZAOEeKbrsO3xkY1rA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_PL9UW5AOEeKbrsO3xkY1rA" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.QuitHandler" command="_PL9UWpAOEeKbrsO3xkY1rA"/>
+  <handlers xmi:id="_PL9UX5AOEeKbrsO3xkY1rA" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.OpenHandler" command="_PL9UXpAOEeKbrsO3xkY1rA"/>
+  <handlers xmi:id="_PL9UYpAOEeKbrsO3xkY1rA" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.SaveHandler" command="_PL9UYZAOEeKbrsO3xkY1rA"/>
+  <handlers xmi:id="_PL9UZZAOEeKbrsO3xkY1rA" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.AboutHandler" command="_PL9UZJAOEeKbrsO3xkY1rA"/>
+  <handlers xmi:id="_qtT7EJAPEeKbrsO3xkY1rA" elementId="com.otiliouine.marovea.ui.handler.newproject" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.NewProjectHandler" command="_dCAosJAPEeKbrsO3xkY1rA"/>
+  <handlers xmi:id="_rXKNMJFrEeK2DeckfyTiHg" elementId="com.otiliouine.marovea.ui.handler.extracttext" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.ExtractTextHandler" command="_vsLFoJFrEeK2DeckfyTiHg"/>
+  <handlers xmi:id="_09__QJGlEeKSXZUhf-_LLQ" elementId="com.otiliouine.marovea.ui.handler.openeditor" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.OpenEditorHandler" command="_h75dwJGZEeKSXZUhf-_LLQ"/>
+  <handlers xmi:id="_6ntVQJfxEeK0nO4GwUhLXA" elementId="com.otiliouine.marovea.ui.handler.movecolumn" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.handlers.MoveColumnHandler" command="_0fNtAJfxEeK0nO4GwUhLXA"/>
+  <bindingTables xmi:id="_PL9UXJAOEeKbrsO3xkY1rA" bindingContext="_PL9UUZAOEeKbrsO3xkY1rA">
+    <bindings xmi:id="_PL9UXZAOEeKbrsO3xkY1rA" keySequence="M1+Q" command="_PL9UWpAOEeKbrsO3xkY1rA"/>
+    <bindings xmi:id="_PL9UYJAOEeKbrsO3xkY1rA" keySequence="M1+O" command="_PL9UXpAOEeKbrsO3xkY1rA"/>
+    <bindings xmi:id="_PL9UY5AOEeKbrsO3xkY1rA" keySequence="M1+S" command="_PL9UYZAOEeKbrsO3xkY1rA"/>
+    <bindings xmi:id="_PL9UZpAOEeKbrsO3xkY1rA" keySequence="M1+A" command="_PL9UZJAOEeKbrsO3xkY1rA"/>
+  </bindingTables>
+  <rootContext xmi:id="_PL9UUZAOEeKbrsO3xkY1rA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_PL9UUpAOEeKbrsO3xkY1rA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_PL9UU5AOEeKbrsO3xkY1rA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <descriptors xmi:id="_2hWCQJJeEeK2MtEZMqpCsg" elementId="com.otiliouine.marovea.ui.partdescriptor.texttable" label="Table" closeable="true" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.parts.TextTablePart"/>
+  <commands xmi:id="_PL9UWpAOEeKbrsO3xkY1rA" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_PL9UXpAOEeKbrsO3xkY1rA" elementId="com.otiliouine.marovea.ui.open" commandName="openCommand"/>
+  <commands xmi:id="_PL9UYZAOEeKbrsO3xkY1rA" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_PL9UZJAOEeKbrsO3xkY1rA" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_dCAosJAPEeKbrsO3xkY1rA" elementId="com.otiliouine.marovea.ui.command.newproject" commandName="newProject"/>
+  <commands xmi:id="_vsLFoJFrEeK2DeckfyTiHg" elementId="com.otiliouine.marovea.ui.command.extracttext" commandName="extractText"/>
+  <commands xmi:id="_h75dwJGZEeKSXZUhf-_LLQ" elementId="com.otiliouine.marovea.ui.command.openeditor" commandName="openEditor" description="Open the projects table editor">
+    <parameters xmi:id="_xF6V4JoVEeKRWdgM7lwdwA" elementId="com.otiliouine.marovea.ui.commandparameter.projectId" name="projectId"/>
+  </commands>
+  <commands xmi:id="_0fNtAJfxEeK0nO4GwUhLXA" elementId="com.otiliouine.marovea.ui.command.movecolumn" commandName="moveColumn">
+    <parameters xmi:id="_qQwH4JlEEeKS-pE8bSAXRg" elementId="com.otiliouine.marovea.ui.commandparameter.projectId" name="projectId" typeId="" optional="false"/>
+    <parameters xmi:id="_OrROEJlOEeKS-pE8bSAXRg" elementId="com.otiliouine.marovea.ui.commandparameter.movedFrom" name="movedFrom" typeId=""/>
+    <parameters xmi:id="_SNeJgJlOEeKS-pE8bSAXRg" elementId="com.otiliouine.marovea.ui.commandparameter.movedTo" name="movedTo"/>
+  </commands>
+  <addons xmi:id="_PL9UVJAOEeKbrsO3xkY1rA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_PL9UVZAOEeKbrsO3xkY1rA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_PL9UVpAOEeKbrsO3xkY1rA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_PL9UV5AOEeKbrsO3xkY1rA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_PL9UWJAOEeKbrsO3xkY1rA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_PL9UWZAOEeKbrsO3xkY1rA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_9xImUJpMEeKRWdgM7lwdwA" elementId="com.otiliouine.marovea.ui.commands.service" contributionURI="bundleclass://com.otiliouine.marovea.ui/com.otiliouine.marovea.ui.addon.MaroveaCommandServiceAddon"/>
+</application:Application>
